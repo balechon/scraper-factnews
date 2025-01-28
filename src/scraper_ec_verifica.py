@@ -1,7 +1,6 @@
-from httpcore import TimeoutException
 import requests
-from bs4 import BeautifulSoup
 import os
+from bs4 import BeautifulSoup
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -14,9 +13,11 @@ from modules.utils import crear_titulo_archivo, esperar_aleatoriamente
 import logging
 from modules.logging_config import configurar_logger
 from modules.config import USER_AGENTS, URL_EC_VERIFICA, OUTPUT_PATH
+from selenium.common.exceptions import NoSuchElementException
+from httpcore import TimeoutException
+
 import warnings
 warnings.filterwarnings("ignore")
-from selenium.common.exceptions import NoSuchElementException
 
 configurar_logger()
 
