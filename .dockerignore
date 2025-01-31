@@ -5,6 +5,7 @@ __pycache__/
 *.so
 .Python
 env/
+.venv/
 build/
 develop-eggs/
 dist/
@@ -52,3 +53,9 @@ htmlcov/
 scraped_data/
 *.csv
 *.json
+# repository files to ignore
+LICENCE
+README.md
+.git/
+Dockerfile
+```

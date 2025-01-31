@@ -1,13 +1,13 @@
 FROM selenium/standalone-chrome:4.28.1-20250123
 USER root
-# Crear un usuario no root
+# Instalar paquetes necesarios
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     python3 \
     python3-pip  \
     python3.12-venv && \
     rm -rf /var/lib/apt/lists/*
-    
+# Crear un usuario no root 
 RUN groupadd appuser && useradd -m -d /home/appuser -g appuser appuser
 # Crear un directorio de trabajo
 WORKDIR /app/
