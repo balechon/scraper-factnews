@@ -8,6 +8,7 @@ Este proyecto es un web scraper diseñado para recolectar información asociada 
 
 - **Scraper de Ecuador Verifica**: Extrae información verificada del sitio web [Ecuador Verifica](https://ecuadorverifica.org/).
 - **Estructuración de datos**: Los datos recolectados son parseados y organizados en un formato estructurado para su posterior análisis.
+- **Imagen de Docker**: Facilita la ejecución del proyecto con una imagen Docker preconfigurada, permitiendo un despliegue rápido y consistente en cualquier entorno.
 
 ## Próximas Funcionalidades
 
