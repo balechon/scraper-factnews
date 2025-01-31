@@ -1,0 +1,7 @@
+version: '1.0'
+services:
+  scraper:
+    build: .
+    volumes:
+      - ./downloads:/app/downloads
+    restart: no

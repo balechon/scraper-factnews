@@ -27,7 +27,7 @@ ENV/
 .env
 
 # directories to ignore
-results/
+downloads/
 
 # IDEs and editors
 .idea/

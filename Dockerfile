@@ -11,7 +11,6 @@ RUN apt-get update && \
 RUN groupadd appuser && useradd -m -d /home/appuser -g appuser appuser
 # Crear un directorio de trabajo
 WORKDIR /app/
-
 # 3. Crear entorno virtual en el home del usuario
 RUN python3 -m venv /home/appuser/venv
 
