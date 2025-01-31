@@ -9,6 +9,6 @@ USER_AGENTS = [
 ]
 
 # ecuador verfica config
-OUTPUT_PATH = "results/EC_Verifica"
+OUTPUT_PATH = "downloads/EC_Verifica"
 URL_EC_VERIFICA = "https://ecuadorverifica.org/discurso-publico/"
 CAT_EC_VERIFICA = [  "cierto","falso","alterado", "enganoso","impreciso","inverificable","satira"]
